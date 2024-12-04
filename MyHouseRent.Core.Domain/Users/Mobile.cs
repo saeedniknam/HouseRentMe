@@ -1,6 +1,3 @@
-﻿namespace HouseRent.Core.Domain.Users
-{
-    public class Mobile
-    {
-    }
-}
+﻿namespace HouseRent.Core.Domain.Users;
+
+public record Mobile (string value);

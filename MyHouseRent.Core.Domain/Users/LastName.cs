@@ -1,6 +1,3 @@
-﻿namespace HouseRent.Core.Domain.Users
-{
-    public class LastName
-    {
-    }
-}
+﻿namespace HouseRent.Core.Domain.Users;
+
+public record LastName(string value);
