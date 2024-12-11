@@ -36,7 +36,7 @@ public class Home : BaseEntity<int>
         List<int> amenities)
     {
         Home home = new Home(id, userId, title, description, address, amenities);
-        home.AddDomainEvent(new HomeCreated(id));
+        home.AddDomainEvent(new HomeCreatedDomainEvent(id));
         return home;
     }
     public static Result Reserve(DateTime reservedDate)
