@@ -14,4 +14,8 @@
     <ProjectReference Include="..\MyHouseRent.Core.Domain\HouseRent.Core.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Framework\Command\" />
+  </ItemGroup>
+
 </Project>
